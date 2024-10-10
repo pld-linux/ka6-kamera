@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	24.08.1
+%define		kdeappsver	24.08.2
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		kamera
 Summary:	Kamera
 Name:		ka6-%{kaname}
-Version:	24.08.1
+Version:	24.08.2
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	653e7a04adcd820cef5f1fb002775e25
+# Source0-md5:	d71428225e60281cf117c612e6a0fb74
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	cmake >= 3.20
